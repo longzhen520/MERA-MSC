@@ -7,6 +7,7 @@ the code is for the paper
 You can try just run the
 
 demo_MERA_MSC.m for MVC
+
 demo_sMERA_MVC.m for scalable MVC
 
 
