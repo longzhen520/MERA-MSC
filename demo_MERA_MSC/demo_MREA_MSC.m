@@ -15,31 +15,31 @@ switch data
           
     case 'MSRC'      
          load('MSRC.mat');
-          rX= [15 14 15 14 5];
+          rX= [30 7 30 7 5];
           R=2;
-          lambda=0.001;
+          lambda=0.0005;
           
      case 'EYaleB'      
          load('EYaleB10_mtv.mat');
-          rX= [32 20 20 32 3];
-          R=10;
-          lambda=1;
+          rX= [64 10 10 64 3];
+          R=2;
+          lambda=0.0005;
           
      case 'NH'  
          %% needs to download Notting Hill datasets
          load('NH.mat');
-          rX= [233 10 233 10 3];
-          R=15;
-          lambda=0.0001;
+          rX= [466 5 466 5 3];
+          R=20;
+          lambda=0;
           X{1}=X1(:,2:2:end);
           X{2}=X2(:,2:2:end);
           X{3}=X3(:,2:2:end);
           gt=gt(2:2:end);
       case 'BDGP'      
           load('BDGP_4view.mat')
-          rX= [50 50 50 50 4];
-          R=10;
-          lambda=0.0002;
+          rX= [500 5 500 5 4];
+          R=2;
+          lambda=0.0001;
           gt=labels;
           V=length(X);
         for v=1:V
