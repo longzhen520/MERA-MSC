@@ -1,6 +1,6 @@
 # MERA-MSC
 the code is for the paper
-1. Effective Multi-view Subspace Clustering  Using Low-rank MERA
+1. Multi-view MERA Subspace Clustering
 
 
 ------------------------------------------------------
